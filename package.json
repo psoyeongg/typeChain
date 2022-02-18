@@ -1,0 +1,17 @@
+{
+  "name": "typeChain",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/psoyeongg/typeChain.git",
+  "author": "sypark96 <sypark96@nkia.co.kr>",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc-watch --onSuccess \" node dist/index.js\" "
+  },
+  "devDependencies": {
+    "tsc-watch": "^4.6.0"
+  },
+  "dependencies": {
+    "typescript": "^4.5.5"
+  }
+}
